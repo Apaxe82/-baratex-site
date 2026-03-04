@@ -110,7 +110,7 @@ export default function App() {
       {/* Hero Section */}
       <section id="hero" className="relative h-screen flex items-center bg-slate-900 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=2000" className="w-full h-full object-cover opacity-40" alt="Office Background" />
+          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=2000" className="w-full h-full object-cover opacity-0" alt="Office Background" />
         </div>
         <div className="container mx-auto px-6 relative z-10 text-white">
           <h1 className="text-6xl md:text-8xl font-black mb-4 leading-none">BARATEX, LDA</h1>
