@@ -212,13 +212,11 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
 
           <button onClick={() => scrollTo('hero')} className="flex items-center gap-3 group">
-            <div className={`w-9 h-9 rounded-xl flex items-center justify-center transition-all ${isScrolled ? "bg-[#2d5a27]" : "bg-white/20 backdrop-blur-sm"}`}>
-              <Leaf size={18} className={isScrolled ? "text-white" : "text-white"} />
-            </div>
-            <span className={`font-extrabold text-xl tracking-tight ${isScrolled ? "text-slate-900" : "text-white"}`}>
-              BARATEX
-              <span className={`text-xs font-bold ml-1 ${isScrolled ? "text-[#2d5a27]" : "text-green-300"}`}>LDA</span>
-            </span>
+            <img
+              src="/logo-baratex.png"
+              alt="Baratex"
+              className={`h-10 w-auto transition-all duration-300 ${isScrolled ? "" : "brightness-0 invert"}`}
+            />
           </button>
 
           <div className="hidden lg:flex items-center gap-6">
@@ -270,9 +268,9 @@ export default function App() {
         {/* Background layers */}
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1585320806297-9794b3e4aaae?auto=format&fit=crop&q=80&w=2400"
+            src="/foto-empresa.jpg"
             className="w-full h-full object-cover opacity-30"
-            alt="Jardim verde"
+            alt="Baratex Angola"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0f1f0d]/95 via-[#0f1f0d]/70 to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0f1f0d]/80 via-transparent to-transparent" />
