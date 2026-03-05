@@ -75,7 +75,7 @@ const content = {
   },
   stats: [
     { value: "10+", label: "Anos de Experiência" },
-    { value: "500+", label: "Clientes Satisfeitos" },
+    { value: "5000+", label: "Clientes Satisfeitos" },
     { value: "4", label: "Serviços Integrados" },
     { value: "24/7", label: "Suporte Disponível" }
   ]
